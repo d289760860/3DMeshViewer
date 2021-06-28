@@ -1,0 +1,737 @@
+newmtl scr\st300\stage\st300-t-grass02_NUKI
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-grass02_NUKIout.png
+map_D /Maps/st300-t-grass02_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita00_NUKI
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita00_NUKIout.png
+map_D /Maps/st300-t-ita00_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita01_NUKI
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita01_NUKIout.png
+map_D /Maps/st300-t-ita01_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-grass03_NUKI
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-grass03_NUKIout.png
+map_D /Maps/st300-t-grass03_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-leaf13_NUKI
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf13_NUKIout.png
+map_D /Maps/st300-t-leaf13_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-treeskin00_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-treeskin00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-w04_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-w04_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-w00_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-w00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-deadtree00_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-deadtree00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-gake03_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-gake03_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-leaf13_NUKI_st300-m00-Ahideout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf13_NUKIout.png
+map_D /Maps/st300-t-leaf13_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-leaf13_NUKI_st300-m00-Aout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf13_NUKIout.png
+map_D /Maps/st300-t-leaf13_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-w00_BM_st300-m00-BFout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-w00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-g00_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-g00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-g001_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-g001_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-g01_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-g01_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-ita01_NUKI_st300-m00-Bout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita01_NUKIout.png
+map_D /Maps/st300-t-ita01_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita00_NUKI_st300-m00-Bout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita00_NUKIout.png
+map_D /Maps/st300-t-ita00_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-leaf13_NUKI_st300-m00-Bout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf13_NUKIout.png
+map_D /Maps/st300-t-leaf13_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-grass03_NUKI_st300-m00-Bout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-grass03_NUKIout.png
+map_D /Maps/st300-t-grass03_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-leaf13big_NUKI
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf13big_NUKIout.png
+map_D /Maps/st300-t-leaf13big_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-treeskin01_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-treeskin01_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-leaf13_NUKI_st300-m00-CFout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf13_NUKIout.png
+map_D /Maps/st300-t-leaf13_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita00_NUKI_st300-m00-CFout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita00_NUKIout.png
+map_D /Maps/st300-t-ita00_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-grass03_NUKI_st300-m00-CFout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-grass03_NUKIout.png
+map_D /Maps/st300-t-grass03_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita01_NUKI_st300-m00-CFout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita01_NUKIout.png
+map_D /Maps/st300-t-ita01_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-wb00_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-wb00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-w00_BM_st300-m00-CFout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-w00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-gake03_BM_st300-m00-CFout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-gake03_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-treeskin00_BM_st300-m00-CFout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-treeskin00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-g01_BM_st300-m00-CFout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-g01_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-leaf13_NUKI_st300-m00-Eout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf13_NUKIout.png
+map_D /Maps/st300-t-leaf13_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita00_NUKI_st300-m00-Eout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita00_NUKIout.png
+map_D /Maps/st300-t-ita00_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita01_NUKI_st300-m00-Eout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita01_NUKIout.png
+map_D /Maps/st300-t-ita01_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita01_NUKI_st300-m00-Fhideout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita01_NUKIout.png
+map_D /Maps/st300-t-ita01_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita00_NUKI_st300-m00-Fhideout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita00_NUKIout.png
+map_D /Maps/st300-t-ita00_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-leaf13_NUKI_st300-m00-Fhideout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf13big_NUKIout.png
+map_D /Maps/st300-t-leaf13big_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-leaf04_NUKI
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf04_NUKIout.png
+map_D /Maps/st300-t-leaf04_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-lamp00_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-lamp00_BMout.png
+map_D /Maps/st300-t-lamp00_BMout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-w00_BM_st300-m00-Gout
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-w00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-komorebi_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-komorebi_BMout.png
+map_D /Maps/st300-t-komorebi_BMout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-kumori00_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-kumori00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-enkei02H_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-enkei02H_BMout.png
+map_D /Maps/st300-t-enkei02H_BMout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-enkei03_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-enkei03_BMout.png
+
+newmtl scr\st300\stage\st300-t-deadtree00_BM_st300-m00-tree00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-deadtree00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-treeskin01_BM_st300-m00-tree00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-treeskin01_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-treeskin00_BM_st300-m00-tree00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-treeskin00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-tuta01_NUKI
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-tuta01_NUKIout.png
+map_D /Maps/st300-t-tuta01_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-tuta00_NUKI
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-tuta00_NUKIout.png
+map_D /Maps/st300-t-tuta00_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-grass03_NUKI_st300-m00-tree01out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-grass03_NUKIout.png
+map_D /Maps/st300-t-grass03_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-grass02_NUKI_st300-m00-tree01out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-grass02_NUKIout.png
+map_D /Maps/st300-t-grass02_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita01_NUKI_st300-m00-tree01out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita01_NUKIout.png
+map_D /Maps/st300-t-ita01_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-ita00_NUKI_st300-m00-tree01out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-ita00_NUKIout.png
+map_D /Maps/st300-t-ita00_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-leaf15_NUKI
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf15_NUKIout.png
+map_D /Maps/st300-t-leaf15_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-leaf04_NUKI_st300-m00-tree01out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-leaf04_NUKIout.png
+map_D /Maps/st300-t-leaf04_NUKIout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-w00_BM_st300-m02-tikei00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-w00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-w04_BM_st300-m02-tikei00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-w04_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-wb00_BM_st300-m02-tikei01out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-wb00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-deadtree00_BM_st300-m04-tikei00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-deadtree00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-drip_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-drip_BMout.png
+map_D /Maps/st300-t-drip_BMout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-rain_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-rain_BMvout.png
+map_D /Maps/st300-t-rain_BMvout_mm.jpg
+
+newmtl scr\st300\stage\st300-t-g01_BM_st300-m00-tikei00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-g01_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-g00_BM_st300-m00-tikei00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-g00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-g001_BM_st300-m00-tikei00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-g01_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-wb00_BM_st300-m00-tikei00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-wb00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-w00_BM_st300-m00-tikei00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-w00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-mizu_BM
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-mizu_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-w00_BM_st300-m01-tikei00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-w00_BMout.jpg
+
+newmtl scr\st300\stage\st300-t-g01_BM_st300-m01-tikei00out
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-g01_BMout.jpg
+
+newmtl default
+d 1
+Ns 1
+Ni 0
+Ka 0 0 0
+Kd 1 1 1
+Ks 0.6 0.6 0.6
+Km 0
+map_Kd /Maps/st300-t-sida_NUKIout.png
+map_D /Maps/st300-t-sida_NUKIout_mm.jpg
+

@@ -1,0 +1,19 @@
+newmtl glass2:Ce
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 111.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 100.00
+newmtl glass2:___Default
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd 111111.jpg
+map_Ka 111111.JPG
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00

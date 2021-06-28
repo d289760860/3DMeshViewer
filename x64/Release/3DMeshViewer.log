@@ -1,0 +1,50 @@
+﻿生成启动时间为 2018/6/21 21:34:55。
+     1>项目“C:\Users\zyf\Desktop\zhujie\osg_3DMesh_changed\3DMeshViewer.vcxproj”在节点 2 上(Build 个目标)。
+     1>CustomBuild:
+         Generate moc_predefs.h
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /IC:\qt\qt5.8.0\5.8\msvc2013_64\include /IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtGui /IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtOpenGL /IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtWidgets /IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtXml /IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtANGLE /IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtCore /Irelease /I"C:\qt\qt5.8.0\5.8\msvc2013_64\mkspecs\win32-msvc2013" /nologo /W3 /WX- /O2 /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_NO_DEBUG /D QT_GUI_LIB /D QT_CORE_LIB /D NDEBUG /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /wd4577 /wd4467 /errorReport:prompt -Zc:strictStrings -w34100 -w34189 -w44996 GeneratedFiles\Release\moc_MainWindow.cpp GeneratedFiles\Release\moc_screenshoot.cpp GeometryBox.cpp Main.cpp MainWindow.cpp MiMath.cpp MiPolygon.cpp MiVector2.cpp MiVector3.cpp OsgViewer.cpp PickHandler.cpp screenshoot.cpp SystemUtility.cpp
+         moc_MainWindow.cpp
+         moc_screenshoot.cpp
+         GeometryBox.cpp
+         Main.cpp
+         MainWindow.cpp
+         MiMath.cpp
+     1>MiMath.cpp(6): warning C4305: “初始化”: 从“double”到“float”截断
+         MiPolygon.cpp
+         MiVector2.cpp
+         MiVector3.cpp
+         OsgViewer.cpp
+     1>OsgViewer.cpp(41): warning C4189: “maxNumLevels”: 局部变量已初始化但不引用
+     1>OsgViewer.cpp(42): warning C4189: “targetNumIndicesPerLeaf”: 局部变量已初始化但不引用
+     1>OsgViewer.cpp(183): warning C4100: “event”: 未引用的形参
+         PickHandler.cpp
+         screenshoot.cpp
+         SystemUtility.cpp
+     1>SystemUtility.cpp(22): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>SystemUtility.cpp(91): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>SystemUtility.cpp(114): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>SystemUtility.cpp(137): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>SystemUtility.cpp(136): warning C4189: “acFileNameCopy”: 局部变量已初始化但不引用
+     1>SystemUtility.cpp(164): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"release\\3DMeshViewer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\qt\qt5.8.0\5.8\msvc2013_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:C:\Qt\Qt5.8.0\5.8\msvc2013_64\lib C:\qt\qt5.8.0\5.8\msvc2013_64\lib\qtmain.lib shell32.lib C:\qt\qt5.8.0\5.8\msvc2013_64\lib\Qt5Gui.lib C:\qt\qt5.8.0\5.8\msvc2013_64\lib\Qt5Core.lib C:\qt\qt5.8.0\5.8\msvc2013_64\lib\Qt5OpenGL.lib C:\qt\qt5.8.0\5.8\msvc2013_64\lib\Qt5Widgets.lib C:\qt\qt5.8.0\5.8\msvc2013_64\lib\Qt5Xml.lib osgQt.lib osgWidget.lib osgViewer.lib osgGA.lib osgText.lib osgDB.lib osgUtil.lib osg.lib OpenThreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"release\3DMeshViewer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Release\moc_MainWindow.obj
+         x64\Release\moc_screenshoot.obj
+         x64\Release\GeometryBox.obj
+         x64\Release\Main.obj
+         x64\Release\MainWindow.obj
+         x64\Release\MiMath.obj
+         x64\Release\MiPolygon.obj
+         x64\Release\MiVector2.obj
+         x64\Release\MiVector3.obj
+         x64\Release\OsgViewer.obj
+         x64\Release\PickHandler.obj
+         x64\Release\screenshoot.obj
+         x64\Release\SystemUtility.obj
+         3DMeshViewer.vcxproj -> C:\Users\zyf\Desktop\zhujie\osg_3DMesh_changed\release\3DMeshViewer.exe
+     1>已完成生成项目“C:\Users\zyf\Desktop\zhujie\osg_3DMesh_changed\3DMeshViewer.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:47.02

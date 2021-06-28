@@ -1,0 +1,71 @@
+D:\Other_Program\sqlite\sqlite-tools-win32-x86-3250300\sqlite3.exe E:\MyFiles\homework\Projects\code\test.db
+
+
+create table models(
+name vchar(255) primary key,
+case_time vchar(25),
+case_location vchar(25),
+case_nature vchar(20),
+case_remarks vchar(150),
+obj_num integer
+);
+
+create table scene(
+id integer primary key autoincrement,
+obj_pic_url vchar(255),
+obj_type vchar(30),
+obj_position vchar(70),
+obj_remarks vchar(150),
+obj_name vchar(255),
+vertex_num integer,
+foreign key (obj_name) references models (name)
+);
+
+create table vertex(
+scene_id  integer,
+val_x float(4),
+val_y float(4),
+val_z float(4),
+foreign key (scene_id) references scene (id)
+);
+
+create table image(
+scene_id  integer,
+imgdata blob,
+foreign key (scene_id) references scene (id)
+);
+
+create table mark(
+scene_id  integer,
+start_x integer,
+start_y integer,
+end_x integer,
+end_y integer,
+figure vchar(20),
+foreign key (scene_id) references scene (id)
+)
+
+insert into models(name,case_time,case_location,case_nature,case_remarks,obj_num) values('testmodel','199.9.12','江','纵火','无',0);
+insert into scene(obj_pic_url,obj_type,obj_position,obj_remarks,obj_name,vertex_num) values ('D:/','aa','地上','无评价','testmodel',0);
+insert into vertex(scene_id,val_x,val_y,val_z) values(1,0.553,1.234,3.12);
+
+
+
+CREATE TRIGGER object_delete AFTER DELETE
+ON models
+BEGIN
+DELETE FROM scene WHERE obj_name = old.name;
+END;
+
+
+CREATE TRIGGER scene_delete AFTER DELETE
+ON scene
+BEGIN
+DELETE FROM vertex WHERE scene_id = old.id;
+END;
+
+CREATE TRIGGER image_delete AFTER DELETE
+ON scene
+BEGIN
+DELETE FROM image WHERE scene_id = old.id;
+END;

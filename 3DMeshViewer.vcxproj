@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BFF53FB9-12C3-3F24-B056-04F1ECD53466}</ProjectGuid>
+    <RootNamespace>3DMeshViewer</RootNamespace>
+    <Keyword>Qt4VSv1.0</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolSet>v141</PlatformToolSet>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>release\</IntermediateDirectory>
+    <PrimaryOutput>3DMeshViewer</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolSet>v141</PlatformToolSet>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>debug\</IntermediateDirectory>
+    <PrimaryOutput>3DMeshViewer</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">3DMeshViewer</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">3DMeshViewer</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>D:\Other_Program\osg\OpenSceneGraphic\include;D:\Other_Program\osg\OpenSceneGraphic\build2013\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Other_Program\osg\OpenSceneGraphic\lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\OSG\include;C:\OSG\build2013\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\OSG\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;C:\qt\qt5.8.0\5.8\msvc2013_64\include;C:\qt\qt5.8.0\5.8\msvc2013_64\include\QtGui;C:\qt\qt5.8.0\5.8\msvc2013_64\include\QtOpenGL;C:\qt\qt5.8.0\5.8\msvc2013_64\include\QtWidgets;C:\qt\qt5.8.0\5.8\msvc2013_64\include\QtXml;C:\qt\qt5.8.0\5.8\msvc2013_64\include\QtANGLE;C:\qt\qt5.8.0\5.8\msvc2013_64\include\QtCore;release;C:\qt\qt5.8.0\5.8\msvc2013_64\mkspecs\win32-msvc2013;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:strictStrings -w34100 -w34189 -w44996 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>release\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;WIN64;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>C:\qt\qt5.8.0\5.8\msvc2013_64\lib\qtmain.lib;shell32.lib;C:\qt\qt5.8.0\5.8\msvc2013_64\lib\Qt5Gui.lib;C:\qt\qt5.8.0\5.8\msvc2013_64\lib\Qt5Core.lib;C:\qt\qt5.8.0\5.8\msvc2013_64\lib\Qt5OpenGL.lib;C:\qt\qt5.8.0\5.8\msvc2013_64\lib\Qt5Widgets.lib;C:\qt\qt5.8.0\5.8\msvc2013_64\lib\Qt5Xml.lib;osgQt.lib;osgWidget.lib;osgViewer.lib;osgGA.lib;osgText.lib;osgDB.lib;osgUtil.lib;osg.lib;OpenThreads.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\qt\qt5.8.0\5.8\msvc2013_64\lib;C:\utils\my_sql\my_sql\lib;C:\utils\postgresql\pgsql\lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OutputFile>$(OutDir)\3DMeshViewer.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;WIN64;QT_NO_DEBUG;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtGui;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtANGLE;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtXml;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtWidgets;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtOpenGL;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\ActiveQt;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtCore;debug;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-w34100 -w34189 -w44996 %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>debug\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;WIN64;QT_GUI_LIB;QT_CORE_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\lib\qtmaind.lib;shell32.lib;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\lib\Qt5Guid.lib;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\lib\Qt5Cored.lib;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\lib\Qt5OpenGLd.lib;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\lib\Qt5Widgetsd.lib;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\lib\Qt5Xmld.lib;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\lib\Qt5AxContainerd.lib;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\lib\Qt5AxServerd.lib;D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\lib\Qt5AxBased.lib;osgQtd.lib;osgWidgetd.lib;osgViewerd.lib;osgGAd.lib;osgTextd.lib;osgDBd.lib;osgUtild.lib;osgd.lib;OpenThreadsd.lib;D:\Other_Program\sqlite\sqlite3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64;C:\utils\my_sql\my_sql\lib;C:\utils\postgresql\pgsql\lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\3DMeshViewer.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_WINDOWS;UNICODE;WIN32;WIN64;QT_GUI_LIB;QT_CORE_LIB;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DataBase.cpp" />
+    <ClCompile Include="DataBaseItem.cpp" />
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_screenshoot.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_screenshoot.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="GenerateDoc.cpp" />
+    <ClCompile Include="GeometryBox.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="MarkManager.cpp" />
+    <ClCompile Include="MiMath.cpp" />
+    <ClCompile Include="MiPolygon.cpp" />
+    <ClCompile Include="MiVector2.cpp" />
+    <ClCompile Include="MiVector3.cpp" />
+    <ClCompile Include="OsgViewer.cpp" />
+    <ClCompile Include="PickHandler.cpp" />
+    <ClCompile Include="screenshoot.cpp" />
+    <ClCompile Include="SingleMark.cpp" />
+    <ClCompile Include="sqlite3.c" />
+    <ClCompile Include="SystemUtility.cpp" />
+    <ClCompile Include="ViewPortMoveEvent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataBase.h" />
+    <ClInclude Include="DataBaseItem.h" />
+    <ClInclude Include="GenerateDoc.h" />
+    <ClInclude Include="GeometryBox.h" />
+    <CustomBuild Include="MainWindow.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_GUI_LIB -DQT_CORE_LIB "-I." "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtGui" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtANGLE" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtXml" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtWidgets" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtOpenGL" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\ActiveQt" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtCore" "-I.\debug" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing %(Identity)...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtGui" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtOpenGL" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtWidgets" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtXml" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtANGLE" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtCore" "-I.\release" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\mkspecs\win32-msvc2013"</Command>
+    </CustomBuild>
+    <ClInclude Include="MarkManager.h" />
+    <ClInclude Include="MiMath.h" />
+    <ClInclude Include="MiMatrix3.h" />
+    <ClInclude Include="MiPolygon.h" />
+    <ClInclude Include="MIVector2.h" />
+    <ClInclude Include="MiVector3.h" />
+    <ClInclude Include="OsgViewer.h" />
+    <ClInclude Include="PickHandler.h" />
+    <ClInclude Include="SingleMark.h" />
+    <ClInclude Include="sqlite3.h" />
+    <ClInclude Include="ViewPortMoveEvent.h" />
+    <CustomBuild Include="screenshoot.h">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc%27ing screenshoot.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_GUI_LIB -DQT_CORE_LIB  "-I." "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtGui" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtANGLE" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtXml" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtWidgets" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtOpenGL" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\ActiveQt" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64\include\QtCore" "-I.\debug" "-ID:\Other_Program\Qt\Qt5.6.3\5.6.3\msvc2015_64"</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc%27ing screenshoot.h...</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp</Outputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">"$(QTDIR)\bin\moc.exe"  "%(FullPath)" -o ".\GeneratedFiles\$(ConfigurationName)\moc_%(Filename).cpp"  -D_WINDOWS -DUNICODE -DWIN32 -DWIN64 -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DNDEBUG "-I." "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtGui" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtOpenGL" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtWidgets" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtXml" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtANGLE" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\include\QtCore" "-I.\release" "-IC:\qt\qt5.8.0\5.8\msvc2013_64\mkspecs\win32-msvc2013"</Command>
+    </CustomBuild>
+    <ClInclude Include="SystemUtility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MiMath.inl" />
+    <None Include="MiMatrix3.inl" />
+    <None Include="MiVector2.inl" />
+    <None Include="MiVector3.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" Qt5Version_x0020_x64="msvc2015_64" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

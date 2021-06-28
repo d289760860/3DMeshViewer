@@ -1,0 +1,83 @@
+newmtl Tile_p000_p000_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p000_p000_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p001_p000_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p001_p000_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p002_p000_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p002_p000_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p003_p000_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p003_p000_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p000_p001_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p000_p001_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p001_p001_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p001_p001_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p002_p001_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p002_p001_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p003_p001_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p003_p001_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p000_p002_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p000_p002_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p001_p002_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p001_p002_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p002_p002_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p002_p002_L21_0000t3_tmpTxtr.jpg
+
+newmtl Tile_p003_p002_L21_0000t3_Production_1.3mx_Default_Acute3D_vis
+    Ns 0.000000
+    Kd 1.000000 1.000000 1.000000
+    Ks 1.000000 1.000000 1.000000
+
+    map_Kd C:\Users\TQY\AppData\Local\Temp\Bentley\MicroStation\10.0.0\Tile_p003_p002_L21_0000t3_tmpTxtr.jpg

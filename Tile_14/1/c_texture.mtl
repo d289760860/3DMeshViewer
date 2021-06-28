@@ -1,0 +1,51 @@
+newmtl ___Default
+illum 4
+Kd 0.90 0.80 0.66
+Ka 0.90 0.80 0.66
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 10.00
+newmtl back
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd back2.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 80.00
+newmtl kley
+illum 4
+Kd 0.11 0.11 0.11
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 100.00
+newmtl koreshok
+illum 4
+Kd 1.00 1.00 1.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 100.00
+newmtl side
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd side2.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 80.00
+newmtl top
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd top2.jpg
+Ni 1.50
+Ks 0.00 0.00 0.00
+Ns 80.00

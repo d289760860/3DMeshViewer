@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{c03d90c7-a07c-406f-bb5a-fc39b279345b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{4028dcec-3c3e-4f40-847b-a8ae9ca77b27}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{3bede0b8-188a-4117-8a63-2fb2e7e361e0}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="screenshoot.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainWindow.h">
+      <Filter>NewFilter1</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="OsgViewer.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryBox.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="MiMath.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="MiPolygon.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="MiVector2.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="MiVector3.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="PickHandler.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemUtility.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_screenshoot.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_screenshoot.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewPortMoveEvent.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBase.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="sqlite3.c">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="DataBaseItem.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="screenshoot.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateDoc.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkManager.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleMark.cpp">
+      <Filter>NewFilter1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OsgViewer.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="MiMath.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="MiMatrix3.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="MiPolygon.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="MIVector2.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="MiVector3.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="PickHandler.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemUtility.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryBox.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewPortMoveEvent.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBase.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseItem.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateDoc.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="MarkManager.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleMark.h">
+      <Filter>NewFilter1</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MiMath.inl">
+      <Filter>NewFilter1</Filter>
+    </None>
+    <None Include="MiMatrix3.inl">
+      <Filter>NewFilter1</Filter>
+    </None>
+    <None Include="MiVector2.inl">
+      <Filter>NewFilter1</Filter>
+    </None>
+    <None Include="MiVector3.inl">
+      <Filter>NewFilter1</Filter>
+    </None>
+  </ItemGroup>
+</Project>

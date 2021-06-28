@@ -1,0 +1,4 @@
+﻿  MarkManager.cpp
+e:\myfiles\homework\projects\code\markmanager.cpp(38): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\myfiles\homework\projects\code\markmanager.cpp(38): warning C4189: “a”: 局部变量已初始化但不引用
+  3DMeshViewer.vcxproj -> E:\MyFiles\homework\Projects\code\debug\3DMeshViewer.exe
